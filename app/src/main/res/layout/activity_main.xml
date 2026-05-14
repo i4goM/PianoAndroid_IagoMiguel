@@ -1,287 +1,389 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="300dp">
+    android:layout_height="match_parent">
 
+    <View
+        android:id="@+id/topMargin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="#000000" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="top"
+        android:layout_marginBottom="20dp"
+        android:background="#151515" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="bottom"
+        android:background="@color/black" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:background="#303030" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:text="PRUEBA EL PIANO!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
     <ImageButton
         android:id="@+id/db2"
         android:layout_width="35dp"
         android:layout_height="140dp"
+        android:layout_gravity="bottom|center_vertical"
         android:layout_marginStart="31dp"
+        android:layout_marginBottom="115dp"
         android:background="@null"
+        android:contentDescription="@string/nada"
         android:elevation="20dp"
-        android:padding="0dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Db2" />
+        app:srcCompat="@drawable/Db2"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
     <ImageButton
         android:id="@+id/eb2"
         android:layout_width="35dp"
         android:layout_height="140dp"
+        android:layout_gravity="bottom|center_vertical"
         android:layout_marginStart="81dp"
+        android:layout_marginBottom="115dp"
         android:background="@null"
+        android:contentDescription="@string/nada"
         android:elevation="20dp"
         android:padding="0dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Eb2" />
+        app:srcCompat="@drawable/Eb2"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/gb2"
         android:layout_width="35dp"
         android:layout_height="140dp"
+        android:layout_gravity="bottom|center_vertical"
         android:layout_marginStart="179dp"
+        android:layout_marginBottom="115dp"
         android:background="@null"
+        android:contentDescription="@string/nada"
         android:elevation="20dp"
         android:padding="0dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Gb2" />
+        app:srcCompat="@drawable/Gb2"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/ab2"
         android:layout_width="35dp"
         android:layout_height="140dp"
+        android:layout_gravity="bottom|center_vertical"
         android:layout_marginStart="229dp"
+        android:layout_marginBottom="115dp"
         android:background="@null"
+        android:contentDescription="@string/nada"
         android:elevation="20dp"
         android:padding="0dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Ab2" />
+        app:srcCompat="@drawable/Ab2"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/bb2"
         android:layout_width="35dp"
         android:layout_height="140dp"
+        android:layout_gravity="bottom|center_vertical"
         android:layout_marginStart="278dp"
+        android:layout_marginBottom="115dp"
         android:background="@null"
+        android:contentDescription="@string/nada"
         android:elevation="20dp"
         android:padding="0dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Bb2" />
+        app:srcCompat="@drawable/Bb2"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/db3"
         android:layout_width="35dp"
         android:layout_height="140dp"
+        android:layout_gravity="bottom|center_vertical"
         android:layout_marginStart="376dp"
+        android:layout_marginBottom="115dp"
         android:background="@null"
+        android:contentDescription="@string/nada"
         android:elevation="20dp"
         android:padding="0dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Db3" />
+        app:srcCompat="@drawable/Db3"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/eb3"
         android:layout_width="35dp"
         android:layout_height="140dp"
+        android:layout_gravity="bottom|center_vertical"
         android:layout_marginStart="425dp"
+        android:layout_marginBottom="115dp"
         android:background="@null"
+        android:contentDescription="@string/nada"
         android:elevation="20dp"
         android:padding="0dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Eb3" />
+        app:srcCompat="@drawable/Eb3"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/gb3"
         android:layout_width="35dp"
         android:layout_height="140dp"
+        android:layout_gravity="bottom|center_vertical"
         android:layout_marginStart="523dp"
+        android:layout_marginBottom="115dp"
         android:background="@null"
+        android:contentDescription="@string/nada"
         android:elevation="20dp"
         android:padding="0dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Gb3" />
+        app:srcCompat="@drawable/Gb3"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/ab3"
         android:layout_width="35dp"
         android:layout_height="140dp"
+        android:layout_gravity="bottom|center_vertical"
         android:layout_marginStart="573dp"
+        android:layout_marginBottom="115dp"
         android:background="@null"
+        android:contentDescription="@string/nada"
         android:elevation="20dp"
         android:padding="0dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Ab3" />
+        app:srcCompat="@drawable/Ab3"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/bb3"
         android:layout_width="35dp"
         android:layout_height="140dp"
+        android:layout_gravity="bottom|center_vertical"
         android:layout_marginStart="622dp"
+        android:layout_marginBottom="115dp"
         android:background="@null"
+        android:contentDescription="@string/nada"
         android:elevation="20dp"
         android:padding="0dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Bb3" />
+        app:srcCompat="@drawable/Bb3"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/imageButton74"
         android:layout_width="35dp"
         android:layout_height="140dp"
+        android:layout_gravity="bottom|center_vertical"
         android:layout_marginStart="720dp"
+        android:layout_marginBottom="115dp"
         android:background="@null"
+        android:contentDescription="@string/nada"
         android:elevation="20dp"
         android:padding="0dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Cb2" />
+        app:srcCompat="@drawable/Cb2"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <LinearLayout
         android:id="@+id/whiteKeys"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="35dp"
         android:orientation="horizontal">
 
 
         <ImageButton
-            android:id="@+id/imageButton49"
+            android:id="@+id/c2"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/c2" />
 
         <ImageButton
-            android:id="@+id/imageButton50"
+            android:id="@+id/d2"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/d2" />
 
         <ImageButton
-            android:id="@+id/imageButton51"
+            android:id="@+id/e2"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/e2" />
 
         <ImageButton
-            android:id="@+id/imageButton52"
+            android:id="@+id/f2"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/f2" />
 
         <ImageButton
-            android:id="@+id/imageButton53"
+            android:id="@+id/g2"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/g2" />
 
         <ImageButton
-            android:id="@+id/imageButton54"
+            android:id="@+id/a2"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/a2" />
 
         <ImageButton
-            android:id="@+id/imageButton55"
+            android:id="@+id/b2"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/b2" />
 
         <ImageButton
-            android:id="@+id/imageButton56"
+            android:id="@+id/c3"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/c3" />
 
         <ImageButton
-            android:id="@+id/imageButton57"
+            android:id="@+id/d3"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/d3" />
 
         <ImageButton
-            android:id="@+id/imageButton58"
+            android:id="@+id/e3"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/e3" />
 
         <ImageButton
-            android:id="@+id/imageButton59"
+            android:id="@+id/f3"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/f3" />
 
         <ImageButton
-            android:id="@+id/imageButton60"
+            android:id="@+id/g3"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/g3" />
 
         <ImageButton
-            android:id="@+id/imageButton61"
+            android:id="@+id/a3"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/a3" />
 
         <ImageButton
-            android:id="@+id/imageButton62"
+            android:id="@+id/b3"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/b3" />
 
         <ImageButton
-            android:id="@+id/imageButton63"
+            android:id="@+id/c4"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_height="220dp"
             android:layout_weight="1"
             android:background="@null"
+            android:contentDescription="@string/nada"
             android:padding="0dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/test" />
+            app:srcCompat="@drawable/c4" />
 
     </LinearLayout>
 </FrameLayout>
