@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="300dp">
 
@@ -14,7 +15,8 @@
         android:elevation="20dp"
         android:padding="0dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Db2" />
+        app:srcCompat="@drawable/Db2"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/eb2"
@@ -116,9 +118,9 @@
         app:srcCompat="@drawable/Bb3" />
 
     <ImageButton
-        android:id="@+id/imageButton74"
-        android:layout_width="35dp"
-        android:layout_height="140dp"
+        android:id="@+id/extra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="720dp"
         android:background="@null"
         android:elevation="20dp"
@@ -134,7 +136,7 @@
 
 
         <ImageButton
-            android:id="@+id/imageButton49"
+            android:id="@+id/c2"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -144,7 +146,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton50"
+            android:id="@+id/d2"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -154,7 +156,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton51"
+            android:id="@+id/e2"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -164,7 +166,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton52"
+            android:id="@+id/f2"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -174,7 +176,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton53"
+            android:id="@+id/g2"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -184,7 +186,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton54"
+            android:id="@+id/a2"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -194,7 +196,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton55"
+            android:id="@+id/b2"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -204,7 +206,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton56"
+            android:id="@+id/c3"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -214,7 +216,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton57"
+            android:id="@+id/d3"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -224,7 +226,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton58"
+            android:id="@+id/e3"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -234,7 +236,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton59"
+            android:id="@+id/f3"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -244,7 +246,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton60"
+            android:id="@+id/g3"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -254,7 +256,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton61"
+            android:id="@+id/a3"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -264,7 +266,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton62"
+            android:id="@+id/b3"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -274,7 +276,7 @@
             app:srcCompat="@drawable/test" />
 
         <ImageButton
-            android:id="@+id/imageButton63"
+            android:id="@+id/c4"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
